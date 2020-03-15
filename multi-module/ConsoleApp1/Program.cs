@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassLibrary1;
+using System;
 
 namespace ConsoleApp1
 {
@@ -7,6 +8,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Class1 c = new Class1();
+            Console.WriteLine("c.compute=" + c.ComputeNumber());
         }
     }
 }

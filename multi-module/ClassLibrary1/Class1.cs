@@ -4,7 +4,8 @@ namespace ClassLibrary1
 {
     public class Class1
     {
-        int getNumber() {
+        public int ComputeNumber()
+        {
             return 99;
         }
     }
